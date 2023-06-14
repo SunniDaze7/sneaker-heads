@@ -1,11 +1,42 @@
+body{
+    background: linear-gradient(90deg, blue, white, red);
+}
+
+h1{
+    text-align: center;
+    background: linear-gradient(180deg,blue, white, red);
+}
+a{
+    color: white;
+}
+a:hover{
+   color: black;
+}
+
 #jordans-1{
-    height: 400px;
-    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60%;
+    box-shadow: 10px 10px blue;
 }
 
 #jordans-2{
-    height: 400px;
-    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 50%;
+    box-shadow: 10px 10px red;
+}
+
+#jordans-1-desc {
+    background-color: blue;
+}
+
+#jordans-2-desc {
+    background-color: red;
 }
 
 /* Write Your CSS Below 
